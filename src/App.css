@@ -1,0 +1,29 @@
+#root {
+  min-height: 95vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 1em;
+  padding: 1em;
+  gap: 1em;
+  font-family: var(--main-font);
+  color: var(--earth-yellow);
+  background-image: url("./assets/images/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game-title {
+  font-family: var(--title-font);
+  font-size: 3.5em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+main {
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5em;
+  position: relative;
+}
